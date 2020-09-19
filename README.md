@@ -1,5 +1,7 @@
-# javascript-notes
+# javascript-notes for Java Developers
 This is a repository that contains my notes about javascript, as a Java Developer I omitted many part of the javascript fundamentals for similarities reasons between java and Js. 
+
+To learn more about Javascript from wikipedia, visit the following [link](https://en.wikipedia.org/wiki/JavaScript#Weakly_typed).
 
 ## Types
 - In Javascript, we don't declare the type of the data, for example we can declare and initialize a number variable like that `var n=1`, later in the program we can also change the type of the variable `n="nowitisastringvariable"`. In java for example we need to declare it as follows: `int n=1`, later in the program we can't change the type of `n`.
@@ -19,6 +21,12 @@ There are two types in this category, arrays and objects.
 - array: `[1,'str1',true]`, arrays are `0` indexed, they can contains heterogenous types, objects type included as follows: `[1,'str1',true, {key1: 1.5}]` .
 - object: `{key1:"value1", key2: 1.5, key3: true}`
 
+## NaN
+- Returned anytime a method expect a number input, and the caller pass a non number, the following expression will return NaN: `Math.sqrt('Mehdi the special one')`
+- `typeof NaN` will return number.
+- To check if a given value is of type NaN, we can use the function `isNaN(Math.sqrt('Mehdi the special one)`.
+
+
 ## Comparison Operators
 - `45 == 45` will return true, we check if the two are equal.
 - `45 === "45"` will return false, we check if both are equal and their type is the same, it is called the strict equal.
@@ -28,12 +36,17 @@ There are two types in this category, arrays and objects.
 ## Functions
 - function declaration:
     ```
-        function functionName(aram1, param2){
+        function functionName(param1, param2){
             //body of the function
             // the possibility to return a value
-            //the returned value can ba of any type, even a function
+            //the returned value can be of any type, even a function
         }
     ```
+
+## Strong, Weak, Dynamic ans Static language
+- JavaScript is a weakly dynamic language, to read more about that, check the following links: [1](https://android.jlelse.eu/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b), [2](https://en.wikipedia.org/wiki/Strong_and_weak_typing), [3](https://www.i-programmer.info/programming/theory/1469-type-systems-demystified-part2-weak-vs-strong.html).
+
+<img src="resources/languageTypes.png">
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).

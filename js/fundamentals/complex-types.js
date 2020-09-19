@@ -20,3 +20,7 @@ myArray.forEach(element => {
 var user = {key1:"someValue", key2: 1.5, key3: true}
 console.log(user);
 console.log(user.key1+" "+ user.key2+" "+ user.key3);
+
+//NaN
+console.log(Math.sqrt("hello"));
+console.log(isNaN(Math.sqrt("hello")));
