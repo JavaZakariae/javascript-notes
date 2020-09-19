@@ -16,8 +16,8 @@ There are two categories of javascript data, the primitive data types and the co
 
 ## Complex Values 
 There are two types in this category, arrays and objects.
-- array: [1,'str1',true]
-- object: {key1:"value1", key2: 1.5, key3: reu}
+- array: `[1,'str1',true, {key1: 1.5}]`, 0 indexed, arrays can contains heterogenous types, objects type included.
+- object: {key1:"value1", key2: 1.5, key3: true}
 
 
 ### Articles
