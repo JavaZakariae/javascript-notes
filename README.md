@@ -66,9 +66,14 @@ There are two types in this category, arrays and objects.
 
 - For those reasons, it is recommended to use the `let` or the `const` keywords whenever possible.
 
+## Closures
+- A closure gives you access to an outer function's scope from an inner function, for more details check [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures), [2](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/closure/).
+
+
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
 - Expression Vs Statement: [1](https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression#:~:text=%E2%80%9CWherever%20JavaScript%20expects%20a%20statement,the%20argument%20of%20a%20function.%E2%80%9D), [2](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74), [3](https://2ality.com/2012/09/expressions-vs-statements.html).
 - Is javascript an interpreted or compiled language: [1](https://medium.com/@almog4130/javascript-is-it-compiled-or-interpreted-9779278468fc), [2](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e), [3](https://stackoverflow.com/questions/9623813/is-javascript-compiled-or-an-interpreted-language).
+- Function hoising [1](https://developer.mozilla.org/fr/docs/Glossaire/Hoisting), [2](https://scotch.io/tutorials/understanding-hoisting-in-javascript#:~:text=Hoisting%20is%20a%20JavaScript%20mechanism,scope%20is%20global%20or%20local.), [3](http://adripofjavascript.com/blog/drips/variable-and-function-hoisting.html).
 
 
