@@ -50,17 +50,25 @@ There are two types in this category, arrays and objects.
 
 ## Type Coercion
 ### Explicit Coercion: 
-- `String(10)`
-- `Number("1")`
+- `String(10)` will return a string data type.
+- `Number("1")` will return a number data type.
 - `Boolean("string")`
 
 ### Implicit Coercion: 
 - performed by javascript behind the scene, `"5"/2`.
 
+## Scopes
+- Global scope, local scope, block scope, function hoising, function scope, nested scopes
+- Using the `var` keyword, we can create two variables with the same name.
+<img src="resources/scopes.png">
+
+- As we can see in the above example, the variable `one` is a global variable and can be accessed from anywhere, the `number` variable declared with `let` keyword is local to its function and can not be accessed globally, the variable `three` even with the `var` keyword can not be accessed globally because its scope is the same as the function `innerFunction()` and can only be accessed inside the getApi function. For more details about scopes, visit the following links: [1](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var), [2](https://medium.com/@vincent.bocquet/var-let-const-en-js-quelles-diff%C3%A9rences-b0f14caa2049).
+
+- For those reasons, it is recommended to use the `let` or the `const` keywords whenever possible.
+
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
 - Expression Vs Statement: [1](https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression#:~:text=%E2%80%9CWherever%20JavaScript%20expects%20a%20statement,the%20argument%20of%20a%20function.%E2%80%9D), [2](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74), [3](https://2ality.com/2012/09/expressions-vs-statements.html).
+- Is javascript an interpreted or compiled language: [1](https://medium.com/@almog4130/javascript-is-it-compiled-or-interpreted-9779278468fc), [2](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e), [3](https://stackoverflow.com/questions/9623813/is-javascript-compiled-or-an-interpreted-language).
 
 
-### current 
-- 30 Type Coercion: Objects and Arrays Conversion - Darija JavaScript
