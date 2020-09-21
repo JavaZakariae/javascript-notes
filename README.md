@@ -68,7 +68,7 @@ There are two types in this category, arrays and objects.
 
 ## Closures
 - A closure gives you access to an outer function's scope from an inner function, for more details check [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures), [2](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/closure/).
-- 
+- More on closure, [here](https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4).
 
 
 ## Articles
