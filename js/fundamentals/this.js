@@ -40,7 +40,7 @@ console.log("another case with arrow function inside a function");
 let person2 = {
     name: 'brahim',
     age: 30,
-    getage : function  (){
+    getage : function (){
         return ()=> {
             console.log(this);
             return this.age;
@@ -49,3 +49,16 @@ let person2 = {
 }
 agefunction2 = person2.getage();
 console.log(agefunction2());
+
+
+//binding this with the call method
+function printName(name){
+    console.log(this);
+    console.log(name);
+}
+
+person = {name: 'zaki'}
+printName(person)
+console.log('using call');
+printName.call(person, 'zaki')
+
