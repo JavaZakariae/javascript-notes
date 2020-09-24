@@ -61,7 +61,6 @@ There are two types in this category, arrays and objects.
 - Global scope, local scope, block scope, function hoising, function scope, nested scopes
 - Using the `var` keyword, we can create two variables with the same name.
 <img src="resources/scopes.png">
-
 - As we can see in the above example, the variable `one` is a global variable and can be accessed from anywhere, the `number` variable declared with `let` keyword is local to its function and can not be accessed globally, the variable `three` even with the `var` keyword can not be accessed globally because its scope is the same as the function `innerFunction()` and can only be accessed inside the getApi function. For more details about scopes, visit the following links: [1](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var), [2](https://medium.com/@vincent.bocquet/var-let-const-en-js-quelles-diff%C3%A9rences-b0f14caa2049).
 
 - For those reasons, it is recommended to use the `let` or the `const` keywords whenever possible.
@@ -81,6 +80,13 @@ There are two types in this category, arrays and objects.
 ### let keyword
 - We can't declare two variable with the same name inside the same scope, the variable declared with let is said to be block scoped, an example to make it more clear.
     [let](resources/let.PNG)
+
+### Arrow functions
+- Map this keyword without using the bind method.
+- Shorter and concise code.    
+- Code hard to read.
+- two ways to write arrow functions
+<img src="resources/arrow-function.png"> 
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
