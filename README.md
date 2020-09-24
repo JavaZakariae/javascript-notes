@@ -73,6 +73,15 @@ There are two types in this category, arrays and objects.
 ## This
 - Article about this keyword: [1](https://blog.invivoo.com/utiliser-loperateur-this-javascript/), [2](https://medium.com/@vincent.bocquet/comprendre-lop%C3%A9rateur-this-en-javascript-41f8630141d4), [3](https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work). 
 
+## ES6
+### var keyword
+- If a variable is declared inside a function, this variable can not be accessed outside the function. We say the variable has a function scope. In case, it is declared inside a block, we say that is block scoped variable and it can be accessed outside of the scope, 
+<img src="resources/let.png">
+
+### let keyword
+- We can't declare two variable with the same name inside the same scope, the variable declared with let is said to be block scoped, an example to make it more clear.
+    [let](resources/let.PNG)
+
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
 - Expression Vs Statement: [1](https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression#:~:text=%E2%80%9CWherever%20JavaScript%20expects%20a%20statement,the%20argument%20of%20a%20function.%E2%80%9D), [2](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74), [3](https://2ality.com/2012/09/expressions-vs-statements.html).
