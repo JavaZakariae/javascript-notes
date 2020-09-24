@@ -70,6 +70,8 @@ There are two types in this category, arrays and objects.
 - A closure gives you access to an outer function's scope from an inner function, for more details check [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures), [2](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/closure/).
 - More on closure, [here](https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4).
 
+## This
+- Article about this keyword: [1](https://blog.invivoo.com/utiliser-loperateur-this-javascript/), [2](https://medium.com/@vincent.bocquet/comprendre-lop%C3%A9rateur-this-en-javascript-41f8630141d4), [3](https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work). 
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
