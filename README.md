@@ -85,8 +85,12 @@ There are two types in this category, arrays and objects.
 - Map this keyword without using the bind method.
 - Shorter and concise code.    
 - Code hard to read.
-- two ways to write arrow functions
-<img src="resources/arrow-function.png"> 
+- Two ways to write arrow functions
+
+<img align="center" src="resources/arrow-function.png"> 
+
+## Template literals
+- [Example on template literals](js\es6\template-literals.js)
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
