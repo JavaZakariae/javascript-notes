@@ -11,20 +11,20 @@ There are two categories of javascript data, the primitive data types and the co
 
 ## Primitive Values 
 - number: One type for decimals and floats, `var n=3.14`.
-- string: "str1", 'str2', \`str3\`
+- string: `"str1"`, `'str2'`, \`str3\`
 - boolean: true or false
-- undefined: When we create a variable without assigning a value to it, its value will be undefined, the type also will be undefined.
-- null: means an empty value, `var n=null`, the value of n will be null and the  type of n will be object.
+- undefined: When we create a variable without assigning a value to it, its value will be undefined, its type also will be undefined.
+- null: means an empty value, `var n=null`, the value of n will be null and the type of `n` will be object.
 
 ## Complex Values 
 There are two types in this category, arrays and objects.
-- array: `[1,'str1',true]`, arrays are `0` indexed, they can contains heterogenous types, objects type included as follows: `[1,'str1',true, {key1: 1.5}]` .
+- array: `[1,'str1',true]`, arrays are `0` indexed, they can contains heterogenous types, objects type included: `[1,'str1',true, {key1: 1.5}]` .
 - object: `{key1:"value1", key2: 1.5, key3: true}`
 
 ## NaN
-- Returned anytime a method expect a number input, and the caller pass a non number, the following expression will return NaN: `Math.sqrt('Mehdi the special one')`
+- Returned anytime a method expect a number input, and the caller pass a non number, the following expression will return `NaN`: `Math.sqrt('Mehdi the special one')`
 - `typeof NaN` will return number.
-- To check if a given value is of type NaN, we can use the function `isNaN(Math.sqrt('Mehdi the special one)`.
+- To check if a given value is of type NaN, we can use the function `isNaN(Math.sqrt('Mehdi the special one))`.
 
 
 ## Comparison Operators
@@ -55,11 +55,11 @@ There are two types in this category, arrays and objects.
 - `Boolean("string")`
 
 ### Implicit Coercion: 
-- performed by javascript behind the scene, `"5"/2`.
+- performed by javascript behind the scene, `"5"/2` will return `2.5`.
 
 ## Scopes
 - Global scope, local scope, block scope, function hoising, function scope, nested scopes
-- Using the `var` keyword, we can create two variables with the same name.
+- Using the `var` keyword, we can create two variables with the same name
 
 <img src="resources/scopes.png">
 
@@ -76,10 +76,9 @@ There are two types in this category, arrays and objects.
 
 ## ES6
 ### var keyword
-- If a variable is declared inside a function, this variable can not be accessed outside the function. We say the variable has a function scope. In case, it is declared inside a block, we say that is block scoped variable and it can be accessed outside of the scope, 
+- If a variable is declared inside a function, this variable can not be accessed outside the function. We say the variable has a function scope. In case, it is declared inside a block, we say that is block scoped variable and it can be accessed outside of the scope
 
-<img src="resources/let.png">
-
+    <img src="resources/let.png">
 
 ### let keyword
 - We can't declare two variable with the same name inside the same scope, the variable declared with let is said to be block scoped, an example to make it more clear.
