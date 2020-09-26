@@ -61,7 +61,8 @@ There are two types in this category, arrays and objects.
 - Global scope, local scope, block scope, function hoising, function scope, nested scopes
 - Using the `var` keyword, we can create two variables with the same name.
 <img src="https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/tree/master/resources/scopes.png">
-- As we can see in the above example, the variable `one` is a global variable and can be accessed from anywhere, the `number` variable declared with `let` keyword is local to its function and can not be accessed globally, the variable `three` even with the `var` keyword can not be accessed globally because its scope is the same as the function `innerFunction()` and can only be accessed inside the getApi function. For more details about scopes, visit the following links: [1](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var), [2](https://medium.com/@vincent.bocquet/var-let-const-en-js-quelles-diff%C3%A9rences-b0f14caa2049).
+
+- As we can see in the above example, the variable `one` is a global variable and can be accessed from anywhere, the `number` variable declared with `let` keyword is local to its function and can not be accessed globally, the variable `three` even with the `var` keyword can not be accessed globally because its scope is the same as the function `innerFunction()` and can only be accessed inside the getApi function. For more details about scopes, visit the following links, [1](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var), [2](https://medium.com/@vincent.bocquet/var-let-const-en-js-quelles-diff%C3%A9rences-b0f14caa2049).
 
 - For those reasons, it is recommended to use the `let` or the `const` keywords whenever possible.
 
@@ -75,6 +76,7 @@ There are two types in this category, arrays and objects.
 ## ES6
 ### var keyword
 - If a variable is declared inside a function, this variable can not be accessed outside the function. We say the variable has a function scope. In case, it is declared inside a block, we say that is block scoped variable and it can be accessed outside of the scope, 
+
 <img src="https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/tree/master/resources/let.png">
 
 ### let keyword
@@ -96,6 +98,14 @@ There are two types in this category, arrays and objects.
 - [arrays](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/destructuring-arrays.js)
 - [objects](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/destructuring-objects.js)
 - [functions](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/destructuring-functions.js)
+
+## for loop
+- [for](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/for-iteration.js)
+
+<img src="resources/forloop.png">
+
+<img src="https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/tree/master/resources/forloop.png"> 
+
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).

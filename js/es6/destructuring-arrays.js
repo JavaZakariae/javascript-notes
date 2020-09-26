@@ -11,5 +11,3 @@ let b=9;
 [a, b] = [b, a]
 console.log(a);
 
-const {myname, myage}=studentinfo
-console.log(myage, myage);
