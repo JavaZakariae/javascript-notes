@@ -92,6 +92,10 @@ There are two types in this category, arrays and objects.
 ## Template literals
 - [Example on template literals](js\es6\template-literals.js)
 
+## destructuring
+- [arrays](js\es6\destructuring-arrays.js)
+- [objects](js\es6\destructuring-objects.js)
+
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
 - Expression Vs Statement: [1](https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression#:~:text=%E2%80%9CWherever%20JavaScript%20expects%20a%20statement,the%20argument%20of%20a%20function.%E2%80%9D), [2](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74), [3](https://2ality.com/2012/09/expressions-vs-statements.html).

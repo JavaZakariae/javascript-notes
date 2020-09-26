@@ -6,16 +6,17 @@ const user = {
 //result of copy by reference
 let userCopy = user;
 console.log("before modification");
-console.log(userCopy);
-console.log(user);
+console.log(userCopy===user);
 
 userCopy.name="ibra"
 console.log("after modification")
 console.log(user)
 console.log(userCopy)
+console.log(userCopy===user);
+
 
 //destruring object
-let {name, age} = user;
+let {age, name} = user;//the order is not important, the variables name are
 console.log(name);
 console.log(age);
 
