@@ -10,13 +10,14 @@ To learn more about Javascript from wikipedia, visit the following [link](https:
 There are two categories of javascript data, the primitive data types and the complex data types. 
 
 ## Primitive Values 
-- number: One type for decimals and floats, `var n=3.14`.
+- number: one type for decimals and floats, `var n=3.14`.
 - string: `"str1"`, `'str2'`, \`str3\`
 - boolean: true or false
 - undefined: When we create a variable without assigning a value to it, its value will be undefined, its type also will be undefined.
 - null: means an empty value, `var n=null`, the value of n will be null and the type of `n` will be object.
 - Primitives types are passed by value:
-<img src="resources/passedbyvalue.png">
+
+    <img src="resources/passedbyvalue.png">
 
 
 ## Complex Values 
@@ -24,7 +25,8 @@ There are two types in this category, arrays and objects.
 - array: `[1,'str1',true]`, arrays are `0` indexed, they can contains heterogenous types, objects type included: `[1,'str1',true, {key1: 1.5}]` .
 - object: `{key1:"value1", key2: 1.5, key3: true}`
 - Complex types are passed by reference:
-<img src="resources/passedbyreference.png">
+
+    <img src="resources/passedbyreference.png">
 
 
 ## NaN
@@ -67,7 +69,7 @@ There are two types in this category, arrays and objects.
 - Global scope, local scope, block scope, function hoising, function scope, nested scopes
 - Using the `var` keyword, we can create two variables with the same name
 
-<img src="resources/scopes.PNG">
+    <img src="resources/scopes.PNG">
 
 - As we can see in the above example, the variable `one` is a global variable and can be accessed from anywhere, the `number` variable declared with `let` keyword is local to its function and can not be accessed globally, the variable `three` even with the `var` keyword can not be accessed globally because its scope is the same as the function `innerFunction()` and can only be accessed inside the getApi function. For more details about scopes, visit the following links, [1](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var), [2](https://medium.com/@vincent.bocquet/var-let-const-en-js-quelles-diff%C3%A9rences-b0f14caa2049).
 
@@ -96,7 +98,7 @@ There are two types in this category, arrays and objects.
 - Code hard to read.
 - Two ways to write arrow functions
 
-<img src="resources/arrow-function.png">
+    <img src="resources/arrow-function.png">
 
 ## Template literals
 - [Example on template literals](js\es6\template-literals.js)
@@ -109,11 +111,16 @@ There are two types in this category, arrays and objects.
 ## for loop
 - [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/for-iteration.js)
 
-<img src="resources/forloop.png">
+    <img src="resources/forloop.png">
 
 
 ## Arrays utilities methods
 - [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/arrays.js)  
+
+
+## Spread operator
+- [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/spread-operator.js) 
+
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
