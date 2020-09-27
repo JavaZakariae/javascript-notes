@@ -101,9 +101,13 @@ There are two types in this category, arrays and objects.
 - [functions](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/destructuring-functions.js)
 
 ## for loop
-- [for](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/for-iteration.js)
+- [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/for-iteration.js)
 
 <img src="resources/forloop.png">
+
+
+## Arrays utilities methods
+- [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/arrays.js)  
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).

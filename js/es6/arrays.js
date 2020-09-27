@@ -15,3 +15,19 @@ console.log(rgbArray.length)
 
 let arrayof = Array.of(1, "10")
 let newArray = Array(10)
+
+
+//testing predicate on arrays
+const values = [1, 3, 99]
+let atLeastOneGreaterThan3 = values.some((number, index, myArray)=>{
+    console.log(number);
+    return number > 3
+})
+console.log(atLeastOneGreaterThan3);
+
+let allGreaterThan3 = values.every((number)=>{
+    console.log(number);
+    return number > 3
+})
+console.log(allGreaterThan3);
+
