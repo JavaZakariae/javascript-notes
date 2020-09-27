@@ -33,5 +33,6 @@ const incrementFunction = {
         , 500)
     }
 }
+
 console.log(incrementFunction.increment());
 console.log(incrementFunction.increment2());
