@@ -121,6 +121,9 @@ There are two types in this category, arrays and objects.
 ## Spread operator
 - [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/spread-operator.js) 
 
+## Promise
+- Articles: [medium](https://medium.com/@kevinyckim33/what-are-promises-in-javascript-f1a5fc5b34bf#:~:text=In%20short%2C%20a%20Promise%20is,catch%20to%20handle%20failure%20cases.),[mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise),[about Promise race](https://www.javascripttutorial.net/es6/javascript-promise-race/),[4](https://www.freecodecamp.org/news/javascript-promises-explained/), [promise-api](promise-api).
+- [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/promise.js) 
 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
