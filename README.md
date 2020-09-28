@@ -122,9 +122,10 @@ There are two types in this category, arrays and objects.
 - [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/spread-operator.js) 
 
 ## Promise
-- Articles: [medium](https://medium.com/@kevinyckim33/what-are-promises-in-javascript-f1a5fc5b34bf#:~:text=In%20short%2C%20a%20Promise%20is,catch%20to%20handle%20failure%20cases.),[mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise),[about Promise race](https://www.javascripttutorial.net/es6/javascript-promise-race/),[4](https://www.freecodecamp.org/news/javascript-promises-explained/), [promise-api](promise-api).
+- Articles about Promise: [medium](https://medium.com/@kevinyckim33/what-are-promises-in-javascript-f1a5fc5b34bf#:~:text=In%20short%2C%20a%20Promise%20is,catch%20to%20handle%20failure%20cases.),[mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise),[about Promise race](https://www.javascripttutorial.net/es6/javascript-promise-race/),[4](https://www.freecodecamp.org/news/javascript-promises-explained/), [promise-api](promise-api).
 - [Examples](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/promise.js) 
-
+- [async and await](https://github.com/JavaZakariae/javascript-notes-for-javadevelopers/blob/master/js/es6/async-await.js) 
+- async and await:[]() 
 ## Articles
 - [Semicolon in Js](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
 - Expression Vs Statement: [1](https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression#:~:text=%E2%80%9CWherever%20JavaScript%20expects%20a%20statement,the%20argument%20of%20a%20function.%E2%80%9D), [2](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74), [3](https://2ality.com/2012/09/expressions-vs-statements.html).
