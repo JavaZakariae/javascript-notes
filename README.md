@@ -52,6 +52,8 @@ There are two types in this category, arrays and objects.
         }
     ```
 - a return keyword without an expression after it, will cause the function to return undefined, the samething happens when we don't have a return statement.
+- If we pass too many parameters to a function, the extra ones are ignored, if we pass too few, the missing parameters get assigned undefined as a value.
+
 ## Strong, Weak, Dynamic ans Static language
 - JavaScript is a weakly dynamic language, to read more about that, check the following links: [1](https://android.jlelse.eu/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b), [2](https://en.wikipedia.org/wiki/Strong_and_weak_typing), [3](https://www.i-programmer.info/programming/theory/1469-type-systems-demystified-part2-weak-vs-strong.html).
 
