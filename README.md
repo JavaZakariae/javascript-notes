@@ -33,6 +33,7 @@ There are two types in this category, arrays and objects.
 - Returned anytime a method expect a number input, and the caller pass a non number, the following expression will return `NaN`: `Math.sqrt('Mehdi the special one')`
 - `typeof NaN` will return number.
 - To check if a given value is of type NaN, we can use the function `isNaN(Math.sqrt('Mehdi the special one))`.
+- keep in mind that `console.log(NaN == NaN)` will result to false.
 
 
 ## Comparison Operators
