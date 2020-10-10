@@ -51,7 +51,7 @@ There are two types in this category, arrays and objects.
             //the returned value can be of any type, even a function
         }
     ```
-
+- a return keyword without an expression after it, will cause the function to return undefined, the samething happens when we don't have a return statement.
 ## Strong, Weak, Dynamic ans Static language
 - JavaScript is a weakly dynamic language, to read more about that, check the following links: [1](https://android.jlelse.eu/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b), [2](https://en.wikipedia.org/wiki/Strong_and_weak_typing), [3](https://www.i-programmer.info/programming/theory/1469-type-systems-demystified-part2-weak-vs-strong.html).
 
